@@ -22,7 +22,7 @@ const Projects = () => (
         Cross-section of various projects I've embarked on. Enjoy!
       </p>
       <div className="CardGroup">
-        <Link to="../crux/">
+        <Link to="/">
           <Card1
             title="CRUX Fashion Store App UI Design"
             text="UI Design"
@@ -30,7 +30,7 @@ const Projects = () => (
             image={require("../images/cover2.jpg")}
           />
         </Link>
-        <Link to="../crux/">
+        <Link to="/">
           <Card2
             title="University of Lagos Students' Portal"
             text="UX Case Study"
@@ -38,7 +38,7 @@ const Projects = () => (
             image={require("../images/cover.jpg")}
           />
         </Link>
-        <Link to="../crux/">
+        <Link to="/">
           <Card3
             title="weCare Charity Organisation Website"
             text="Front End Development"
@@ -46,7 +46,7 @@ const Projects = () => (
             image={require("../images/cover3.jpg")}
           />
         </Link>
-        <Link to="../crux/">
+        <Link to="/">
           <Card1
             title="Areola Daniel Personal Website"
             text="Front End Developement"
@@ -54,7 +54,7 @@ const Projects = () => (
             image={require("../images/cover4.jpg")}
           />
         </Link>
-        <Link to="../crux/">
+        <Link to="/">
           <Card1 image={require("../images/cover7.jpg")} />
         </Link>
       </div>
@@ -63,7 +63,7 @@ const Projects = () => (
           Photography Projects <b> 📸</b>
         </h2>
         <div className="CardGroup2">
-          <Link to="../crux/">
+          <Link to="/">
             <Card4
               title="Events Excerpts"
               text="Photography"
@@ -71,7 +71,7 @@ const Projects = () => (
               image={require("../images/cover88.jpg")}
             />
           </Link>
-          <Link to="../crux/">
+          <Link to="/">
             <Card1
               title="Bloodtype: Matte Black"
               text="Photography"
@@ -79,7 +79,7 @@ const Projects = () => (
               image={require("../images/cover5.jpg")}
             />
           </Link>
-          <Link to="../crux/">
+          <Link to="/">
             <Card1
               title="Portraits"
               text="Photography"
