@@ -29,19 +29,6 @@ module.exports = {
         icon: `src/images/flaticon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-google-fonts-v2`,
-    {
-      resolve: `gatsby-plugin-google-fonts-v2`,
-      options: {
-        fonts: [
-          {
-            family: "Poppins",
-            variable: true,
-            weights: ["200..900"],
-          },
-        ],
-      },
-    },
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-styled-components`,
