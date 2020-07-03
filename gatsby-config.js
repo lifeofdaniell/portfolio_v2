@@ -29,19 +29,19 @@ module.exports = {
         icon: `src/images/flaticon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-prefetch-google-fonts`,
+    `gatsby-plugin-google-fonts-v2`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
         fonts: [
           {
-            family: `Poppins`,
-            variants: [`300`, `400`, `500`, `600`, `700`, `800`],
+            family: "Poppins",
+            variable: true,
+            weights: ["200..900"],
           },
         ],
       },
-    },
-    `gatsby-plugin-styled-components`,
+    }`gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
