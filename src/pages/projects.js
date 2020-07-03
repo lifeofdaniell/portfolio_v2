@@ -51,7 +51,7 @@ const Projects = () => (
             title="Areola Daniel Personal Website"
             text="Front End Developement"
             text2="2020"
-            image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794269/GatsbyPortfolio/optimized/cover3_om4pac.jpg"
+            image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794268/GatsbyPortfolio/optimized/cover4_wpe3bo.jpg"
           />
         </Link>
         <Link to="/">
