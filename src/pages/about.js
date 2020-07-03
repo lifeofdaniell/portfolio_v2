@@ -30,7 +30,11 @@ const AboutPage = () => (
         in creating functional user interfaces and making the user experience as
         comfortable as possible.
       </h4>
-      <img className="image" src={bio} alt="" />
+      <img
+        className="image"
+        src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593785144/GatsbyPortfolio/bio_ihp6am.jpg"
+        alt=""
+      />
       <p>
         Over the past 3 years, I started as a freelance graphics designer and
         photographer before expanding to user interface and experience design
