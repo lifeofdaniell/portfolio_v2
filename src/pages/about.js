@@ -32,7 +32,7 @@ const AboutPage = () => (
       </h4>
       <img
         className="image"
-        src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593785144/GatsbyPortfolio/bio_ihp6am.jpg"
+        src="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794283/GatsbyPortfolio/optimized/bio_qwipuo.jpg"
         alt=""
       />
       <p>

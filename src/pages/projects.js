@@ -27,7 +27,7 @@ const Projects = () => (
             title="CRUX Fashion Store App UI Design"
             text="UI Design"
             text2="2020"
-            image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593785145/GatsbyPortfolio/cover2_cpfg6c.jpg"
+            image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794285/GatsbyPortfolio/optimized/cover2_sbx2to.jpg"
           />
         </Link>
         <Link to="/">
@@ -35,7 +35,7 @@ const Projects = () => (
             title="University of Lagos Students' Portal"
             text="UX Case Study"
             text2="2020"
-            image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593785144/GatsbyPortfolio/cover_gehfzl.jpg"
+            image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794280/GatsbyPortfolio/optimized/cover_cdoqnk.jpg"
           />
         </Link>
         <Link to="/">
@@ -51,11 +51,11 @@ const Projects = () => (
             title="Areola Daniel Personal Website"
             text="Front End Developement"
             text2="2020"
-            image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593785144/GatsbyPortfolio/cover4_m8sdzn.jpg"
+            image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794269/GatsbyPortfolio/optimized/cover3_om4pac.jpg"
           />
         </Link>
         <Link to="/">
-          <Card1 image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593785146/GatsbyPortfolio/cover7_l2jdr7.jpg" />
+          <Card1 image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794279/GatsbyPortfolio/optimized/cover7_egcqpe.jpg" />
         </Link>
       </div>
       <div className="Cards2">
@@ -68,7 +68,7 @@ const Projects = () => (
               title="Events Excerpts"
               text="Photography"
               text2="2020"
-              image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593785149/GatsbyPortfolio/cover88_osglmy.jpg"
+              image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794289/GatsbyPortfolio/optimized/cover8_p6d7fz.jpg"
             />
           </Link>
           <Link to="/">
@@ -76,7 +76,7 @@ const Projects = () => (
               title="Bloodtype: Matte Black"
               text="Photography"
               text2="2019"
-              image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593785145/GatsbyPortfolio/cover5_sujl6u.jpg"
+              image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794282/GatsbyPortfolio/optimized/cover5_tvcv84.jpg"
             />
           </Link>
           <Link to="/">
@@ -84,7 +84,7 @@ const Projects = () => (
               title="Portraits"
               text="Photography"
               text2="2018-2020"
-              image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593785145/GatsbyPortfolio/cover6_chgijs.jpg"
+              image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794284/GatsbyPortfolio/optimized/cover6_d3mwbw.jpg"
             />
           </Link>
         </div>
