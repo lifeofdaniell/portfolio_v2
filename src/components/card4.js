@@ -1,5 +1,5 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
 const CardGroup = styled.div`
   @media (max-width: 420px) {
@@ -32,14 +32,14 @@ const CardGroup = styled.div`
     transform: translateY(-10px);
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
   }
-`
+`;
 const CardImage = styled.img`
   height: 100%;
   position: absolute;
   top: 0;
   z-index: -1;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-`
+`;
 const CardTitle = styled.h3`
   @media (max-width: 420px) {
     font-size: 18px;
@@ -57,7 +57,7 @@ const CardTitle = styled.h3`
   letter-spacing: -1px;
   line-height: 1;
   width: 200px;
-`
+`;
 const CardText = styled.p`
   @media (max-width: 420px) {
     margin: 0px 0 0px 20px;
@@ -71,7 +71,7 @@ const CardText = styled.p`
   font-size: 12px;
   letter-spacing: -0.5px;
   margin: 0 0 0px 30px;
-`
+`;
 const CardText2 = styled.p`
   @media (max-width: 420px) {
     margin: 0px 0 0px 20px;
@@ -82,15 +82,15 @@ const CardText2 = styled.p`
   font-size: 12px;
   letter-spacing: -0.5px;
   margin: 0 0 0px 30px;
-`
+`;
 
-const Card4 = props => (
+const Card4 = (props) => (
   <CardGroup>
-    <CardImage src={props.image} />
+    <CardImage src={props.image} alt="" />
     <CardTitle>{props.title}</CardTitle>
     <CardText>{props.text}</CardText>
     <CardText2>{props.text2}</CardText2>
   </CardGroup>
-)
+);
 
-export default Card4
+export default Card4;

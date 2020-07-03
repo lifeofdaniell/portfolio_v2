@@ -1,21 +1,21 @@
-import React from "react"
-import { Link } from "gatsby"
-import PreFooter from "../components/prefooter"
-import Footer from "../components/footer"
-import "./about.css"
-import bio from "../images/bio.jpg"
-import xd from "../images/xd.svg"
-import iv from "../images/invision.svg"
-import sk from "../images/sketch.svg"
-import fg from "../images/figma.svg"
-import html from "../images/html.svg"
-import css from "../images/css.svg"
-import js from "../images/js.svg"
-import vue from "../images/vue.svg"
-import react from "../images/react.svg"
-import gatsby from "../images/gatsby.svg"
-import SEO from "../components/seo"
-import HeaderPage from "../components/header"
+import React from "react";
+import { Link } from "gatsby";
+import PreFooter from "../components/prefooter";
+import Footer from "../components/footer";
+import "./about.css";
+import bio from "../images/bio.jpg";
+import xd from "../images/xd.svg";
+import iv from "../images/invision.svg";
+import sk from "../images/sketch.svg";
+import fg from "../images/figma.svg";
+import html from "../images/html.svg";
+import css from "../images/css.svg";
+import js from "../images/js.svg";
+import vue from "../images/vue.svg";
+import react from "../images/react.svg";
+import gatsby from "../images/gatsby.svg";
+import SEO from "../components/seo";
+import HeaderPage from "../components/header";
 
 const AboutPage = () => (
   <div>
@@ -45,34 +45,54 @@ const AboutPage = () => (
         everyday!
       </p>
       <div className="IconGroup2">
-        <Link to="https://www.adobe.com/products/xd.html" target="_blank">
+        <Link
+          to="https://www.adobe.com/products/xd.html"
+          target="_blank"
+          rel="noopener"
+        >
           <img src={xd} alt="" />
         </Link>
-        <Link to="https://www.invisionapp.com/studio" target="_blank">
+        <Link
+          to="https://www.invisionapp.com/studio"
+          target="_blank"
+          rel="noopener"
+        >
           <img src={iv} alt="" />
         </Link>
-        <Link to="https://www.sketch.com/" target="_blank">
+        <Link to="https://www.sketch.com/" target="_blank" rel="noopener">
           <img src={sk} alt="" />
         </Link>
-        <Link to="https://www.figma.com/" target="_blank">
+        <Link to="https://www.figma.com/" target="_blank" rel="noopener">
           <img src={fg} alt="" />
         </Link>
-        <Link to="https://www.w3schools.com/html/" target="_blank">
+        <Link
+          to="https://www.w3schools.com/html/"
+          target="_blank"
+          rel="noopener"
+        >
           <img src={html} alt="" />
         </Link>
-        <Link to="https://www.w3schools.com/css/" target="_blank">
+        <Link
+          to="https://www.w3schools.com/css/"
+          target="_blank"
+          rel="noopener"
+        >
           <img src={css} alt="" />
         </Link>
-        <Link to="https://www.w3schools.com/js/default.asp" target="_blank">
+        <Link
+          to="https://www.w3schools.com/js/default.asp"
+          target="_blank"
+          rel="noopener"
+        >
           <img src={js} alt="" />
         </Link>
-        <Link to="https://vuejs.org/" target="_blank">
+        <Link to="https://vuejs.org/" target="_blank" rel="noopener">
           <img src={vue} alt="" />
         </Link>
-        <Link to="https://reactjs.org/" target="_blank">
+        <Link to="https://reactjs.org/" target="_blank" rel="noopener">
           <img src={react} alt="" />
         </Link>
-        <Link to="https://www.gatsbyjs.org/" target="_blank">
+        <Link to="https://www.gatsbyjs.org/" target="_blank" rel="noopener">
           <img src={gatsby} alt="" />
         </Link>
       </div>
@@ -101,6 +121,6 @@ const AboutPage = () => (
     />
     <Footer />
   </div>
-)
+);
 
-export default AboutPage
+export default AboutPage;

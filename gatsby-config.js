@@ -29,7 +29,17 @@ module.exports = {
         icon: `src/images/flaticon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Poppins`,
+            variants: [`300`, `400`, `500`, `600`, `700`, `800`],
+          },
+        ],
+      },
+    }`gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
@@ -40,4 +50,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

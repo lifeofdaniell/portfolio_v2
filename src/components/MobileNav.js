@@ -1,16 +1,16 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
-import styled from "styled-components"
-import logo from "../images/logoblack.svg"
-import bhicon from "../images/behance.svg"
-import igicon from "../images/instagram.svg"
-import lnicon from "../images/linkedin.svg"
-import mdicon from "../images/medium.svg"
-import twicon from "../images/twitter.svg"
-import gticon from "../images/github.svg"
+import React, { useState } from "react";
+import { Link } from "gatsby";
+import styled from "styled-components";
+import logo from "../images/logoblack.svg";
+import bhicon from "../images/behance.svg";
+import igicon from "../images/instagram.svg";
+import lnicon from "../images/linkedin.svg";
+import mdicon from "../images/medium.svg";
+import twicon from "../images/twitter.svg";
+import gticon from "../images/github.svg";
 
 const MobileNavMenu = () => {
-  const [menuOpen, toggleMenuOpen] = useState(false)
+  const [menuOpen, toggleMenuOpen] = useState(false);
 
   return (
     <MenuBar>
@@ -40,25 +40,46 @@ const MobileNavMenu = () => {
             </li>
           </ul>
           <IconGroup>
-            <Link to="https://twitter.com/lifeofdaniell" target="_blank">
+            <Link
+              to="https://twitter.com/lifeofdaniell"
+              target="_blank"
+              rel="noopener"
+            >
               <img src={twicon} alt="" />
             </Link>
-            <Link to="https://instagram.com/lifeofdanielll" target="_blank">
+            <Link
+              to="https://instagram.com/lifeofdanielll"
+              target="_blank"
+              rel="noopener"
+            >
               <img src={igicon} alt="" />
             </Link>
             <Link
               to="https://www.linkedin.com/in/areola-daniel-11180115a"
               target="_blank"
+              rel="noopener"
             >
               <img src={lnicon} alt="" />
             </Link>
-            <Link to="https://medium.com/@areoladanielopeyemi" target="_blank">
+            <Link
+              to="https://medium.com/@areoladanielopeyemi"
+              target="_blank"
+              rel="noopener"
+            >
               <img src={mdicon} alt="" />
             </Link>
-            <Link to="https://www.behance.net/lifeofdaniell" target="_blank">
+            <Link
+              to="https://www.behance.net/lifeofdaniell"
+              target="_blank"
+              rel="noopener"
+            >
               <img src={bhicon} alt="" />
             </Link>
-            <Link to="https://github.com/lifeofdaniell" target="_blank">
+            <Link
+              to="https://github.com/lifeofdaniell"
+              target="_blank"
+              rel="noopener"
+            >
               <img src={gticon} alt="" />
             </Link>
           </IconGroup>
@@ -71,10 +92,10 @@ const MobileNavMenu = () => {
         </MenuLinks>
       </MenuLinksContainer>
     </MenuBar>
-  )
-}
+  );
+};
 
-export default MobileNavMenu
+export default MobileNavMenu;
 
 const MenuBar = styled.header`
   display: none;
@@ -91,17 +112,17 @@ const MenuBar = styled.header`
     justify-content: space-between;
     align-items: center;
   }
-`
+`;
 
 const MenuLogo = styled.div`
   z-index: 11;
-`
+`;
 
 const MenuIconContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-`
+`;
 
 const MenuIcon = styled.div`
   cursor: pointer;
@@ -138,7 +159,7 @@ const MenuIcon = styled.div`
         menuOpen ? "rotate(-45deg)" : "rotate(0)"};
     }
   }
-`
+`;
 
 const MenuLinksContainer = styled.nav`
   background: white;
@@ -155,7 +176,7 @@ const MenuLinksContainer = styled.nav`
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   transform: ${({ menuOpen }) =>
     menuOpen ? "translateY(0)" : "translateY(100%)"};
-`
+`;
 
 const MenuLinks = styled.nav`
   @media (max-width: 330px) {
@@ -192,7 +213,7 @@ const MenuLinks = styled.nav`
       }
     }
   }
-`
+`;
 
 const IconGroup = styled.div`
   margin: 40px auto 30px auto;
@@ -200,7 +221,7 @@ const IconGroup = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-`
+`;
 const Foot = styled.div`
   @media (max-width: 420px) {
     width: 45%;
@@ -217,4 +238,4 @@ const Foot = styled.div`
     font-weight: 300;
     letter-spacing: -0.5px;
   }
-`
+`;

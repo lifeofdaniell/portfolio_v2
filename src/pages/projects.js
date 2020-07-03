@@ -1,14 +1,14 @@
-import React from "react"
-import { Link } from "gatsby"
-import SEO from "../components/seo"
-import "./projects.css"
-import Card1 from "../components/card"
-import Card2 from "../components/card2"
-import Card3 from "../components/card3"
-import Card4 from "../components/card4"
-import PreFooter from "../components/prefooter"
-import Footer from "../components/footer"
-import HeaderPage from "../components/header"
+import React from "react";
+import { Link } from "gatsby";
+import SEO from "../components/seo";
+import "./projects.css";
+import Card1 from "../components/card";
+import Card2 from "../components/card2";
+import Card3 from "../components/card3";
+import Card4 from "../components/card4";
+import PreFooter from "../components/prefooter";
+import Footer from "../components/footer";
+import HeaderPage from "../components/header";
 
 const Projects = () => (
   <div>
@@ -96,6 +96,6 @@ const Projects = () => (
     />
     <Footer />
   </div>
-)
+);
 
-export default Projects
+export default Projects;
