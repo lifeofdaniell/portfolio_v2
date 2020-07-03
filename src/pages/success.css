@@ -1,0 +1,84 @@
+.container2 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 520px) {
+  .container2 {
+    min-height: 85vh;
+  }
+}
+.brand2 {
+  margin-top: -30px;
+  margin-bottom: 70px;
+}
+@media (max-width: 520px) {
+  .brand2 {
+    margin-bottom: 140px;
+  }
+}
+.section2 h1 {
+  margin: 0px auto 30px auto;
+  width: 70%;
+  line-height: 0.9;
+  text-align: center;
+  letter-spacing: -5.5px;
+  font-weight: 700;
+  font-size: 80px;
+}
+@media (max-width: 520px) {
+  .section2 h1 {
+    font-size: 45px;
+    letter-spacing: -3px;
+    width: 75%;
+  }
+}
+.section2 h1::after {
+  content: " 🚀";
+  top: 30px;
+  left: 68%;
+  position: absolute;
+  font-size: 120px;
+}
+@media (max-width: 520px) {
+  .section2 h1::after {
+    font-size: 60px;
+    top: 20px;
+    left: 75%;
+  }
+}
+.section2 h2 {
+  width: 18.5%;
+  margin: 0 auto;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 70px;
+}
+@media (max-width: 520px) {
+  .section2 h2 {
+    width: 49%;
+    margin-bottom: 100px;
+  }
+}
+.section2 a {
+  color: rgb(123, 123, 123);
+  font-size: 16px;
+  font-weight: 300;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.section2 a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  color: black;
+}
+@media (max-width: 520px) {
+  .section2 a {
+    font-size: 14px;
+    border-bottom: 1px solid rgba(123, 123, 123, 1);
+  }
+}
