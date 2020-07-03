@@ -44,7 +44,7 @@
   width: 20%;
   font-size: 18px;
   font-weight: 300;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
   text-align: center;
   animation: CardAnimation 3s 0.3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 }
