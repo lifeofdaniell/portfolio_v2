@@ -183,18 +183,17 @@
   transform: scale(1.5);
 }
 .clients {
+  width: 100%;
   text-align: center;
   margin-top: 100px;
 }
 @media (max-width: 720px) {
   .clients {
-    margin-left: 5%;
   }
 }
 @media (max-width: 520px) {
   .clients {
     margin-top: 40px;
-    margin-left: 5%;
   }
 }
 .clients h3 {
@@ -203,6 +202,7 @@
 }
 @media (max-width: 720px) {
   .clients h3 {
+    margin-left: 5%;
     text-align: left;
   }
 }
@@ -229,14 +229,14 @@
   .clients p {
     text-align: left;
     max-width: 610px;
-    margin: 10px 0 50px 0;
+    margin: 10px 0 50px 5%;
   }
 }
 @media (max-width: 520px) {
   .clients p {
-    margin: 10px 0 50px 0;
+    margin: 10px 0 50px 5%;
     font-size: 16px;
-    width: 93%;
+    width: 90%;
   }
 }
 .clients a {
