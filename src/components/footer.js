@@ -6,7 +6,7 @@ import lnicon from "../images/linkedin.svg";
 import mdicon from "../images/medium.svg";
 import twicon from "../images/twitter.svg";
 import gticon from "../images/github.svg";
-import "./footer.css";
+import "../styles/footer.css";
 
 const Footer = () => (
   <div className="End">

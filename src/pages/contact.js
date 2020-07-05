@@ -1,26 +1,26 @@
-import React from "react"
-import { navigate } from "gatsby-link"
-import Footer from "../components/footer"
-import "./contact.css"
-import SEO from "../components/seo"
-import HeaderPage from "../components/header"
+import React from "react";
+import { navigate } from "gatsby-link";
+import Footer from "../components/footer";
+import "../styles/contact.css";
+import SEO from "../components/seo";
+import HeaderPage from "../components/header";
 
 function encode(data) {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&")
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
 }
 
 export default function Contact() {
-  const [state, setState] = React.useState({})
+  const [state, setState] = React.useState({});
 
-  const handleChange = e => {
-    setState({ ...state, [e.target.name]: e.target.value })
-  }
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value });
+  };
 
-  const handleSubmit = e => {
-    e.preventDefault()
-    const form = e.target
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -30,8 +30,8 @@ export default function Contact() {
       }),
     })
       .then(() => navigate(form.getAttribute("action")))
-      .catch(error => alert(error))
-  }
+      .catch((error) => alert(error));
+  };
 
   return (
     <div>
@@ -143,5 +143,5 @@ export default function Contact() {
       </div>
       <Footer />
     </div>
-  )
+  );
 }

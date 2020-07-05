@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/logoblack.svg";
-import "../components/layout.css";
+import "../styles/layout.css";
 import { Link } from "gatsby";
 import SEO from "../components/seo";
 
@@ -27,7 +27,7 @@ const IndexPage = () => (
         </p>
       </div>
       <div className="links">
-        <Link to="/projects/">SEE MY WORK</Link>
+        <Link to="/projects">SEE MY WORK</Link>
       </div>
     </div>
   </div>

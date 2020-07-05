@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import SEO from "../components/seo";
-import "./projects.css";
+import "../styles/projects.css";
 import Card1 from "../components/card";
 import Card2 from "../components/card2";
 import Card3 from "../components/card3";
@@ -22,15 +22,15 @@ const Projects = () => (
         Cross-section of various projects I've embarked on. Enjoy!
       </p>
       <div className="CardGroup">
-        <Link to="/">
+        <Link to="/projects/crux">
           <Card1
-            title="CRUX Fashion Store App UI Design"
+            title="CRUX Fashion Store App"
             text="UI Design"
             text2="2020"
             image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794285/GatsbyPortfolio/optimized/cover2_sbx2to.jpg"
           />
         </Link>
-        <Link to="/">
+        <Link to="/projects/unilag">
           <Card2
             title="University of Lagos Students' Portal"
             text="UX Case Study"
@@ -38,7 +38,7 @@ const Projects = () => (
             image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794280/GatsbyPortfolio/optimized/cover_cdoqnk.jpg"
           />
         </Link>
-        <Link to="/">
+        <Link to="/projects/wecare">
           <Card3
             title="weCare Charity Organisation Website"
             text="Front End Development"
@@ -63,7 +63,7 @@ const Projects = () => (
           Photography Projects <b> 📸</b>
         </h2>
         <div className="CardGroup2">
-          <Link to="/">
+          <Link to="/projects/events">
             <Card4
               title="Events Excerpts"
               text="Photography"
@@ -71,15 +71,15 @@ const Projects = () => (
               image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794289/GatsbyPortfolio/optimized/cover8_p6d7fz.jpg"
             />
           </Link>
-          <Link to="/">
+          <Link to="/projects/matteblack">
             <Card1
-              title="Bloodtype: Matte Black"
+              title="Bloodtype: MatteBlack"
               text="Photography"
               text2="2019"
               image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794282/GatsbyPortfolio/optimized/cover5_tvcv84.jpg"
             />
           </Link>
-          <Link to="/">
+          <Link to="/projects/portraits">
             <Card1
               title="Portraits"
               text="Photography"

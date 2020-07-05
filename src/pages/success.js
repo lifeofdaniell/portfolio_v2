@@ -1,8 +1,8 @@
-import React from "react"
-import { Link } from "gatsby"
-import "./success.css"
-import logo from "../images/logoblack.svg"
-import SEO from "../components/seo"
+import React from "react";
+import { Link } from "gatsby";
+import "../styles/success.css";
+import logo from "../images/logoblack.svg";
+import SEO from "../components/seo";
 
 const SuccessPage = () => (
   <div>
@@ -20,6 +20,6 @@ const SuccessPage = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default SuccessPage
+export default SuccessPage;

@@ -43,7 +43,7 @@ const CardImage = styled.img`
 const CardTitle = styled.h3`
   @media (max-width: 420px) {
     font-size: 18px;
-    width: 170px;
+    width: 150px;
     margin: 20px 0 5px 20px;
   }
   @media (max-width: 330px) {
@@ -56,7 +56,7 @@ const CardTitle = styled.h3`
   margin: 30px 0 5px 30px;
   letter-spacing: -1px;
   line-height: 1;
-  width: 200px;
+  width: 180px;
 `;
 const CardText = styled.p`
   @media (max-width: 420px) {
