@@ -34,15 +34,7 @@
     font-size: 40px;
   }
 }
-.about h2::after {
-  content: " 👨🏾‍💻";
-  font-size: 62px;
-}
-@media (max-width: 520px) {
-  .about h2::after {
-    font-size: 45px;
-  }
-}
+
 .about h4 {
   margin: 10px auto 0px auto;
   max-width: 800px;
@@ -75,12 +67,7 @@
     max-width: 300px;
   }
 }
-.about h4 b {
-  font-weight: 600;
-}
-.about h4 b::after {
-  content: " 🇳🇬 ";
-}
+
 .about p {
   margin: 10px auto;
   font-size: 18px;
@@ -136,25 +123,6 @@
 @media (max-width: 330px) {
   .tools h3 {
     font-size: 16px;
-  }
-}
-.tools h3::before {
-  content: "🖋️";
-  font-size: 25px;
-}
-@media (max-width: 520px) {
-  .tools h3::before {
-    content: " ";
-  }
-}
-.tools h3::after {
-  content: "🛠️";
-  font-size: 25px;
-}
-@media (max-width: 520px) {
-  .tools h3::after {
-    content: "🛠️🖋️";
-    font-size: 18px;
   }
 }
 .tools p {
@@ -250,26 +218,7 @@
     font-size: 16px;
   }
 }
-.clients h3::before {
-  content: "📑";
-  font-size: 25px;
-}
-@media (max-width: 520px) {
-  .clients h3::before {
-    content: " ";
-  }
-}
 
-.clients h3::after {
-  content: "💼";
-  font-size: 25px;
-}
-@media (max-width: 520px) {
-  .clients h3::after {
-    content: "💼📑";
-    font-size: 18px;
-  }
-}
 .clients p {
   margin: 10px auto 50px auto;
   font-size: 18px;

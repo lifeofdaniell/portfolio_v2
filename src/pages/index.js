@@ -1,8 +1,8 @@
-import React from "react"
-import logo from "../images/logoblack.svg"
-import "../components/layout.css"
-import { Link } from "gatsby"
-import SEO from "../components/seo"
+import React from "react";
+import logo from "../images/logoblack.svg";
+import "../components/layout.css";
+import { Link } from "gatsby";
+import SEO from "../components/seo";
 
 const IndexPage = () => (
   <div>
@@ -22,7 +22,7 @@ const IndexPage = () => (
 
       <div className="section2">
         <p>
-          I love creating beautiful and functional user interfaces with most
+          I love creating beautiful and functional user interfaces with the most
           comfortable user experience.
         </p>
       </div>
@@ -31,6 +31,6 @@ const IndexPage = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;

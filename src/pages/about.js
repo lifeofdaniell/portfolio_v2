@@ -24,11 +24,11 @@ const AboutPage = () => (
     <div className="about">
       <h2>A Bit More About Me</h2>
       <h4>
-        I'm Areola Daniel, a multifaceted designer based in Lagos,{" "}
-        <b>Nigeria</b> who focuses on telling clients' stories visually by
-        creating pixel perfect screen designs and beautiful images. I specialize
-        in creating functional user interfaces and making the user experience as
-        comfortable as possible.
+        I'm Areola Daniel, a multifaceted designer based in Lagos, Nigeria who
+        focuses on telling clients' stories visually by creating pixel perfect
+        screen designs and beautiful images. I specialize in creating functional
+        user interfaces and making the user experience as comfortable as
+        possible.
       </h4>
       <img
         className="image"
@@ -42,9 +42,9 @@ const AboutPage = () => (
       </p>
     </div>
     <div className="tools">
-      <h3> SOFTWARES {"&"} TECHNOLOGIES </h3>
+      <h3> SOFTWARE {"&"} TECHNOLOGIES </h3>
       <p>
-        Here are some of the design softwares, programming languages and
+        Here are some of the design software packages, programming languages and
         frameworks that I use frequently. I'm always looking to learn new things
         everyday!
       </p>
@@ -106,8 +106,8 @@ const AboutPage = () => (
       <p>
         I’ve been lucky enough to establish relationships with amazing clients,
         ranging from individual clients, through up-and-coming startups, to
-        non-profit organizations. For more details, view my résumé <b>📂</b> or
-        head over to my{" "}
+        non-profit organizations. For more details, view my résumé or head over
+        to my{" "}
         <a
           href="https://www.linkedin.com/in/areola-daniel-11180115a"
           target="_blank"
