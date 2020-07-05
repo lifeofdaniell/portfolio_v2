@@ -1,37 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-const Template = (props) => (
-  <TemplateGroup>
-    <LeftTemp>
-      <LTHead>
-        {props.text}
-        <LTTitle>{props.title}</LTTitle>
-      </LTHead>
-      <LTHead2>
-        {props.roles}
-        <LTlist>
-          <LT>{props.list1}</LT>
-          <LT>{props.list2}</LT>
-          <LT>{props.list3}</LT>
-          <LT>{props.list4}</LT>
-        </LTlist>
-      </LTHead2>
-      <LTHead3>
-        {props.year}
-        <LTText>{props.text3}</LTText>
-      </LTHead3>
-    </LeftTemp>
-    <RightTemp>
-      <RTText>{props.description}</RTText>
-      <RTText>{props.description2}</RTText>
-      <RTText>{props.description3}</RTText>
-    </RightTemp>
-  </TemplateGroup>
-);
-
-export default Template;
-
 const TemplateGroup = styled.div`
   display: grid;
   grid-template-columns: 60% 40%;
@@ -157,3 +126,34 @@ const RTText = styled.div`
     width: 95%;
   }
 `;
+
+const Template = (props) => (
+  <TemplateGroup>
+    <LeftTemp>
+      <LTHead>
+        {props.text}
+        <LTTitle>{props.title}</LTTitle>
+      </LTHead>
+      <LTHead2>
+        {props.roles}
+        <LTlist>
+          <LT>{props.list1}</LT>
+          <LT>{props.list2}</LT>
+          <LT>{props.list3}</LT>
+          <LT>{props.list4}</LT>
+        </LTlist>
+      </LTHead2>
+      <LTHead3>
+        {props.year}
+        <LTText>{props.text3}</LTText>
+      </LTHead3>
+    </LeftTemp>
+    <RightTemp>
+      <RTText>{props.description}</RTText>
+      <RTText>{props.description2}</RTText>
+      <RTText>{props.description3}</RTText>
+    </RightTemp>
+  </TemplateGroup>
+);
+
+export default Template;
