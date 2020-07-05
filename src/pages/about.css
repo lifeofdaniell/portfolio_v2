@@ -188,7 +188,6 @@
 }
 @media (max-width: 720px) {
   .clients {
-    text-align: left;
     margin-left: 5%;
   }
 }
@@ -265,6 +264,7 @@
 }
 @media (max-width: 520px) {
   .clients .resume {
+    text-align: center;
     font-size: 13px;
   }
 }
