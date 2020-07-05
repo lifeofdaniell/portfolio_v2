@@ -2,9 +2,11 @@ import React from "react";
 import { Link } from "gatsby";
 import HeaderPage from "../../components/header";
 import Template from "../../components/Template";
+import SEO from "../../components/seo";
 
 const Wecare = () => (
   <div>
+    <SEO title="WeCare Charity Organisation Website" />
     <HeaderPage />
     <Template
       text="FRONT-END DEVELOPMENT"

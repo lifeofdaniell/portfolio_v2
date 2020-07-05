@@ -2,9 +2,11 @@ import React from "react";
 import { Link } from "gatsby";
 import HeaderPage from "../../components/header";
 import Template from "../../components/Template";
+import SEO from "../../components/seo";
 
 const Crux = () => (
   <div>
+    <SEO title="CRUX Fashion Store App" />
     <HeaderPage />
     <Template
       text="USER INTERFACE DESIGN"
