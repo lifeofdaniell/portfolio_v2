@@ -187,10 +187,7 @@
   text-align: center;
   margin-top: 100px;
 }
-@media (max-width: 720px) {
-  .clients {
-  }
-}
+
 @media (max-width: 520px) {
   .clients {
     margin-top: 40px;
