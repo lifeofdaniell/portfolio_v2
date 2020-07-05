@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/logoblack.svg";
-import "../styles/layout.css";
+import "../components/layout.css";
 import { Link } from "gatsby";
 import SEO from "../components/seo";
 
