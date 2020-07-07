@@ -42,7 +42,7 @@ const PosterFolio = () => (
       image13="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402908/eventstrolley_gmijq5.jpg"
       image29="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589841135/profsanni_fc93ro.jpg"
       image15="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402880/wecareHNY_finy9d.jpg"
-      image16="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402983/WM_axvw14.jpg"
+      image16="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402933/web_az2ndo.jpg"
       image14="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589841137/wmlogo_n4a4um.jpg"
     />
     <Footer />
