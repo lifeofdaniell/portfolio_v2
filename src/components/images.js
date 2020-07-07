@@ -33,6 +33,7 @@ const ImageGrid = (props) => (
       <Image src={props.image26} alt="" />
       <Image src={props.image27} alt="" />
       <Image src={props.image28} alt="" />
+      <Image src={props.image28b} alt="" />
     </ImageGridColumn>
     <ImageGridColumn>
       <Image src={props.image13} alt="" />
@@ -54,9 +55,9 @@ const ImageGridWrapper = styled.div`
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 5px 5px;
+  padding: 0px 5px;
   width: 85%;
-  margin: 70px auto;
+  margin: 70px auto 150px auto;
   animation: CardAnimation 500ms 1.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 
@@ -64,7 +65,7 @@ const ImageGridWrapper = styled.div`
     padding: 0px 0px;
     width: 90%;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     align-items: flex-start;
   }
 
@@ -83,7 +84,7 @@ const ImageGridColumn = styled.div`
   -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
-  padding: 0 5px;
+  padding: 0px 5px;
 
   @media (max-width: 720px) {
     -ms-flex: 100%;
