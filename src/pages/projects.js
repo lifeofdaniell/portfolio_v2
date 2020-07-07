@@ -54,7 +54,7 @@ const Projects = () => (
             image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794268/GatsbyPortfolio/optimized/cover4_wpe3bo.jpg"
           />
         </Link>
-        <Link to="/">
+        <Link to="/projects/posterfolio">
           <Card1 image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794279/GatsbyPortfolio/optimized/cover7_egcqpe.jpg" />
         </Link>
       </div>
