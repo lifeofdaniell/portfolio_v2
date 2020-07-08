@@ -9,8 +9,10 @@ import sk from "../images/sketch.svg";
 import fg from "../images/figma.svg";
 import html from "../images/html.svg";
 import css from "../images/css.svg";
+import tw from "../images/tailwind.svg";
 import js from "../images/js.svg";
 import vue from "../images/vue.svg";
+import gs from "../images/gridsome.svg";
 import react from "../images/react.svg";
 import gatsby from "../images/gatsby.svg";
 import SEO from "../components/seo";
@@ -82,6 +84,9 @@ const AboutPage = () => (
         >
           <img src={css} alt="" />
         </Link>
+        <Link to="https://tailwindcss.com/" target="_blank" rel="noopener">
+          <img src={tw} alt="" />
+        </Link>
         <Link
           to="https://www.w3schools.com/js/default.asp"
           target="_blank"
@@ -91,6 +96,9 @@ const AboutPage = () => (
         </Link>
         <Link to="https://vuejs.org/" target="_blank" rel="noopener">
           <img src={vue} alt="" />
+        </Link>
+        <Link to="https://gridsome.org/" target="_blank" rel="noopener">
+          <img src={gs} alt="" />
         </Link>
         <Link to="https://reactjs.org/" target="_blank" rel="noopener">
           <img src={react} alt="" />
