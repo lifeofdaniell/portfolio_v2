@@ -15,8 +15,14 @@ const Wecare = () => (
       list2="Visual Design"
       list3="Website Design"
       list4="Front End Development"
+      tools="TOOLS USED"
+      list5="Sketch"
+      list6="ReactJS (GatsbyJS)"
+      list7="GitHub"
       year="YEAR"
-      text3="2020"
+      text4="2020"
+      links="Visit live website"
+      link="https://wecare.org"
       description="The WeCare website features a friendly, welcoming design and high
       quality imagery in an easily navigable layout making it easy for 
       visitors and potential donors to find out more about the cause, 

@@ -15,8 +15,12 @@ const Crux = () => (
       list2="Visual Design"
       list3="Icon Design"
       list4="App Design"
+      tools="TOOLS USED"
+      list5="Adobe XD"
+      list6="Adobe Photoshop"
+      list7="Adobe Illustrator"
       year="YEAR"
-      text3="2020"
+      text4="2020"
       description="CRUX is an online fashion store that sells quality tailor made fashion wears and accessories. They are based in Lagos, Nigeria and have the ability of ship all around the world. They current mode of operation is mainly focused on social media marketing.
       "
       description2="Even though they have an operational website, they found the use of Instagram to sell and advertise their products way easier!

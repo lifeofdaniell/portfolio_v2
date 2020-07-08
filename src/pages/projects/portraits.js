@@ -2,7 +2,7 @@ import React from "react";
 import HeaderPage from "../../components/header";
 import Template from "../../components/Template";
 import SEO from "../../components/seo";
-import ImageGrid from "../../components/images";
+import ImageGrid from "../../components/imagegrid";
 import Footer from "../../components/footer";
 
 const Portraits = () => (
@@ -15,8 +15,11 @@ const Portraits = () => (
       roles="MY ROLE"
       list1="Portrait Photography"
       list2="Photo Editing"
+      tools="TOOLS USED"
+      list5="Adobe Lightroom"
+      list6="Adobe Photoshop"
       year="YEAR"
-      text3="2018-2020"
+      text4="2018-2020"
       description="You can find below a selection of expertly curated images that draw attention to the subject of interest while incorporating aspects of their personality with a high degree of attention to detail, telling a different story with each image."
       description2="RAW images from Canon EOS200D with the EF-S18-55mm f/3.5-5.6 III and EF50mm f/1.8STM lens."
     />

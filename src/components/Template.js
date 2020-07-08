@@ -50,7 +50,7 @@ const LTHead2 = styled.h4`
   font-weight: 300;
   letter-spacing: 4px;
   margin-bottom: 15px;
-  animation: CardAnimation 500ms 0.3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: CardAnimation 500ms 0.4s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 
   @media (max-width: 520px) {
     font-size: 10px;
@@ -63,7 +63,20 @@ const LTHead3 = styled.h4`
   font-weight: 300;
   letter-spacing: 4px;
   margin-bottom: 15px;
-  animation: CardAnimation 500ms 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: CardAnimation 500ms 0.7s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  @media (max-width: 520px) {
+    font-size: 10px;
+  }
+`;
+const LTHead4 = styled.h4`
+  opacity: 0;
+  color: grey;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  margin-bottom: 15px;
+  animation: CardAnimation 500ms 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 
   @media (max-width: 520px) {
     font-size: 10px;
@@ -114,7 +127,7 @@ const LTTitle = styled.h2`
 `;
 const RightTemp = styled.div`
   opacity: 0;
-  animation: CardAnimation 500ms 0.8s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: CardAnimation 500ms 1.3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 `;
 const RTText = styled.div`
   color: black;
@@ -125,6 +138,18 @@ const RTText = styled.div`
   @media (max-width: 520px) {
     font-size: 15px;
     width: 95%;
+  }
+`;
+
+const RTLink = styled.a`
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+
+  @media (max-width: 520px) {
+    font-size: 15px;
   }
 `;
 
@@ -145,14 +170,26 @@ const Template = (props) => (
         </LTlist>
       </LTHead2>
       <LTHead3>
-        {props.year}
-        <LTText>{props.text3}</LTText>
+        {props.tools}
+        <LTlist>
+          <LT>{props.list5}</LT>
+          <LT>{props.list6}</LT>
+          <LT>{props.list7}</LT>
+          <LT>{props.list8}</LT>
+        </LTlist>
       </LTHead3>
+      <LTHead4>
+        {props.year}
+        <LTText>{props.text4}</LTText>
+      </LTHead4>
     </LeftTemp>
     <RightTemp>
       <RTText>{props.description}</RTText>
       <RTText>{props.description2}</RTText>
       <RTText>{props.description3}</RTText>
+      <RTLink href={props.link} target="_blank" rel="noopener">
+        {props.links}
+      </RTLink>
     </RightTemp>
   </TemplateGroup>
 );

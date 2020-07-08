@@ -2,7 +2,7 @@ import React from "react";
 import HeaderPage from "../../components/header";
 import Template from "../../components/Template";
 import SEO from "../../components/seo";
-import ImageGrid from "../../components/images";
+import ImageGrid from "../../components/imagegrid";
 import Footer from "../../components/footer";
 
 const PosterFolio = () => (
@@ -16,8 +16,11 @@ const PosterFolio = () => (
       list2="Visual Design"
       list3="Brand Identity Design"
       list4="Graphic Design"
+      tools="TOOLS USED"
+      list5="Adobe Illustrator"
+      list6="Adobe Photoshop"
       year="YEAR"
-      text3="2016 - 2019"
+      text4="2016 - 2019"
       description="From rough sketches to full design, creating logos always gives me a certain thrill. 
       It gives me great pleasure to bring a collective idea to life. Creating beautiful and attention-drawing promotional posters for various clients in different fields
       affords me the chance to explore and take my creative intuition to greater heights."
@@ -35,15 +38,15 @@ const PosterFolio = () => (
       image9="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402885/w.jpg"
       image10="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589841111/msadebate_ht8apu.jpg"
       image11="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402918/nuasalogo_aagfow.jpg"
-      image12="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402849/ntd_b25i2m.jpg"
+      image12="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594228741/ntd_b25i2m_jek4zt.jpg"
       image13="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402908/eventstrolley_gmijq5.jpg"
       image14="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589841137/wmlogo_n4a4um.jpg"
       image15="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402880/wecareHNY_finy9d.jpg"
       image16="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402933/web_az2ndo.jpg"
       image17="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403753/cp_t7kexy.jpg"
-      image18="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402639/l2l_jti5ze.jpg"
-      image19="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402927/teres_opnc3m.jpg"
-      image20="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589841135/profsanni_fc93ro.jpg"
+      image21="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402639/l2l_jti5ze.jpg"
+      image25="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402927/teres_opnc3m.jpg"
+      image29="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589841135/profsanni_fc93ro.jpg"
     />
     <Footer />
   </div>
