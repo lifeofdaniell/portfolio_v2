@@ -2,6 +2,7 @@ import React from "react";
 import HeaderPage from "../../components/header";
 import Template from "../../components/Template";
 import SEO from "../../components/seo";
+import Footer from "../../components/footer";
 
 const Crux = () => (
   <div>
@@ -26,6 +27,8 @@ const Crux = () => (
       description2="Even though they have an operational website, they found the use of Instagram to sell and advertise their products way easier!
       In that light, I designed an app for the online fashion store to help sell their products and not rely on the use of social media."
     />
+
+    <Footer />
   </div>
 );
 

@@ -2,6 +2,7 @@ import React from "react";
 import HeaderPage from "../../components/header";
 import Template from "../../components/Template";
 import SEO from "../../components/seo";
+import Footer from "../../components/footer";
 
 const Wecare = () => (
   <div>
@@ -35,6 +36,8 @@ const Wecare = () => (
       ranging from how donations are gotten to the appropriate United Nations' Sustainable
       Development Goals the organization is focusing on. "
     />
+
+    <Footer />
   </div>
 );
 
