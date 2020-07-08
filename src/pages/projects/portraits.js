@@ -48,7 +48,7 @@ const Portraits = () => (
       image26="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589732515/IMG_4012-2_rocpcn.jpg"
       image1="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589732523/IMG_4017-2_bts4im.jpg"
       image30="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403286/bllacc2edit_rji4lh.jpg"
-      image29="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403294/bllacc6edit_go82rh.jpg"
+      image28="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403294/bllacc6edit_go82rh.jpg"
       image27="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403375/bllaccedit_j1ybfn.jpg"
       image31="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403501/Soundz_y5ztx6.jpg"
       image20="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794284/GatsbyPortfolio/optimized/cover6_d3mwbw.jpg"

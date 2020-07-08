@@ -89,7 +89,7 @@ const ImageGridColumn = styled.div`
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
-    padding: 0 0p;
+    padding: 0px 0px;
   }
 `;
 const Image = styled.img`
