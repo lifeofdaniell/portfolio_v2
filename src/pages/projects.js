@@ -38,6 +38,14 @@ const Projects = () => (
             image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794280/GatsbyPortfolio/optimized/cover_cdoqnk.jpg"
           />
         </Link>
+        <Link to="/projects/designs">
+          <Card1
+            title="Miscellaneous Designs"
+            text="UI Design"
+            text2="2019-2020"
+            image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594315574/GatsbyPortfolio/optimized/cover_wtepqo.jpg"
+          />
+        </Link>
         <Link to="/projects/wecare">
           <Card3
             title="weCare Charity Organisation Website"
