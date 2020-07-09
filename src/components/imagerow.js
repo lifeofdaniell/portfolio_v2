@@ -4,21 +4,27 @@ import "./layout.css";
 
 const ImageRow = (props) => (
   <ImageRowWrapper>
-    <Image src={props.image1} alt="" width="2000" />
-    <Image src={props.image2} alt="" width="2000" />
-    <Image src={props.image3} alt="" width="2000" />
-    <Image src={props.image4} alt="" width="2000" />
-    <Image src={props.image5} alt="" width="2000" />
-    <Image src={props.image6} alt="" width="2000" />
-    <Image src={props.image7} alt="" width="2000" />
-    <Image src={props.image8} alt="" width="2000" />
-    <Image src={props.image9} alt="" width="2000" />
-    <Image src={props.image10} alt="" width="2000" />
-    <Image src={props.image11} alt="" width="2000" />
-    <Image src={props.image12} alt="" width="2000" />
-    <Image src={props.image13} alt="" width="2000" />
-    <Image src={props.image14} alt="" width="2000" />
-    <Image src={props.image15} alt="" width="2000" />
+    <ImageColumn>
+      <Image src={props.column} alt="" />
+    </ImageColumn>
+    <ImageColumn>
+      <Image src={props.column2} alt="" />
+    </ImageColumn>
+    <Image src={props.image1} alt="" />
+    <Image src={props.image2} alt="" />
+    <Image src={props.image3} alt="" />
+    <Image src={props.image4} alt="" />
+    <Image src={props.image5} alt="" />
+    <Image src={props.image6} alt="" />
+    <Image src={props.image7} alt="" />
+    <Image src={props.image8} alt="" />
+    <Image src={props.image9} alt="" />
+    <Image src={props.image10} alt="" />
+    <Image src={props.image11} alt="" />
+    <Image src={props.image12} alt="" />
+    <Image src={props.image13} alt="" />
+    <Image src={props.image14} alt="" />
+    <Image src={props.image15} alt="" />
   </ImageRowWrapper>
 );
 
@@ -26,7 +32,9 @@ export default ImageRow;
 
 const ImageRowWrapper = styled.div`
   display: flex;
-  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0px 5px;
   margin: 70px auto 140px auto;
   max-width: 85%;
   justify-content: center;
@@ -51,6 +59,21 @@ const ImageRowWrapper = styled.div`
     }
   }
 `;
+
+const ImageColumn = styled.div`
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+  padding: 0px 5px;
+
+  @media (max-width: 720px) {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 0px 0px;
+  }
+`;
+
 const Image = styled.img`
   max-width: 100%;
   margin-bottom: 20px;

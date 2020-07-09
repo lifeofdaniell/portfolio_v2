@@ -3,6 +3,7 @@ import HeaderPage from "../../components/header";
 import Template from "../../components/Template";
 import SEO from "../../components/seo";
 import Footer from "../../components/footer";
+import ImageRow from "../../components/imagerow";
 
 const Crux = () => (
   <div>
@@ -28,6 +29,20 @@ const Crux = () => (
       In that light, I designed an app for the online fashion store to help sell their products and not rely on the use of social media."
     />
 
+    <ImageRow
+      column="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594300072/crux/1_etiuut.jpg"
+      column2="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297741/crux/2_qefdpb.jpg"
+      image1="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297748/crux/3_vjnjto.jpg"
+      image2="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297755/crux/4_hpwdnz.gif"
+      image3="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297748/crux/5_mxyfp1.jpg"
+      image4=""
+      image5="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297742/crux/7_ktskej.jpg"
+      image6="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297742/crux/8_h1zdpc.jpg"
+      image7="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297744/crux/9_h08mx2.jpg"
+      image8="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297742/crux/10_aas845.jpg"
+      image9="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297746/crux/11_lhbqzi.jpg"
+      image10="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297745/crux/12_mwxe1s.jpg"
+    />
     <Footer />
   </div>
 );

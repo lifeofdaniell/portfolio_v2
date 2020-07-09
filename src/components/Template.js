@@ -150,6 +150,7 @@ const RTLink = styled.a`
 
   @media (max-width: 520px) {
     font-size: 15px;
+    margin-bottom: 30px;
   }
 `;
 
