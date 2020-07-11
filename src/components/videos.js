@@ -4,16 +4,28 @@ import "./layout.css";
 
 const VideoRow = (props) => (
   <VideoWrapper>
+    <Image src={props.image} alt="" />
+    <Video
+      src={props.video3}
+      controls="controls"
+      poster="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594494798/GatsbyPortfolio/bookplaceholder_jqoaoe.png"
+    />
+    <Video
+      src={props.video2}
+      controls="controls"
+      poster="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594495990/GatsbyPortfolio/NetflixPlaceholder_nrod15.png"
+    />
     <Image src={props.image1} alt="" />
     <Image src={props.image2} alt="" />
     <Image src={props.image3} alt="" />
     <Image src={props.image4} alt="" />
     <Image src={props.image5} alt="" />
     <Image src={props.image6} alt="" />
-    <Video src={props.video1} controls="controls" poster="" />
-    <Image src={props.image} alt="" />
-    <Video src={props.video3} controls="controls" poster="" />
-    <Video src={props.video2} controls="controls" poster="" />
+    <Video
+      src={props.video1}
+      controls="controls"
+      poster="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594496215/GatsbyPortfolio/eplplaceholder_ywfxs3.png"
+    />
   </VideoWrapper>
 );
 
@@ -53,7 +65,6 @@ const Video = styled.video`
   margin-bottom: 20px;
   vertical-align: middle;
   outline: none;
-
   @media (max-width: 720px) {
     margin-bottom: 5%;
   }

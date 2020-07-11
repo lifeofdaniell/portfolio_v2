@@ -44,13 +44,6 @@ const Crux = () => (
     />
 
     <CruxFooter>
-      <CruxText>
-        "The new student portal design presents a massive upgrade from the
-        existing portal. With the introduction of new features and
-        functionalities and a more user-friendly interface, it addresses the
-        needs of the student population and improves communication within the
-        student community making student life easier."
-      </CruxText>
       <Link
         to="https://xd.adobe.com/view/94c96766-56dd-4009-6119-7aea9f437602-e2f8/"
         target="_blank"
@@ -69,11 +62,20 @@ const CruxFooter = styled.div`
   text-align: center;
   width: 600px;
   margin: 0px auto 50px auto;
+  @media (max-width: 520px) {
+    width: 100%;
+  }
 `;
 const CruxText = styled.p`
   font-size: 16px;
   font-weight: 300;
   text-align: center;
+  @media (max-width: 520px) {
+    font-size: 15px;
+    width: 92%;
+    margin: 0px 0 0px 5%;
+    text-align: left;
+  }
 `;
 const CruxLink = styled.button`
   margin: 50px auto;

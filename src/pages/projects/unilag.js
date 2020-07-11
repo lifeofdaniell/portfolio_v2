@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "gatsby";
+import styled from "styled-components";
 import HeaderPage from "../../components/header";
 import Template from "../../components/Template";
 import SEO from "../../components/seo";
@@ -48,8 +50,50 @@ const Unilag = () => (
       image8="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589831864/uxcasestudy3_su10zk.jpg"
     />
 
+    <LagFooter>
+      <LagText>
+        "The new student portal design presents a massive upgrade from the
+        existing portal. With the introduction of new features and
+        functionalities and a more user-friendly interface, it addresses the
+        needs of the student population and improves communication within the
+        student community making student life easier."
+      </LagText>
+      <Link
+        to="https://xd.adobe.com/view/7945b45e-ec36-4691-563d-6f87418a979c-0f74/"
+        target="_blank"
+        rel="noopener"
+      >
+        <LagLink>View App Prototype</LagLink>
+      </Link>
+    </LagFooter>
     <Footer />
   </div>
 );
 
 export default Unilag;
+
+const LagFooter = styled.div`
+  text-align: center;
+  width: 600px;
+  margin: 0px auto 50px auto;
+  @media (max-width: 520px) {
+    width: 100%;
+  }
+`;
+const LagText = styled.p`
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  @media (max-width: 520px) {
+    font-size: 15px;
+    width: 92%;
+    margin: 0px 0 0px 5%;
+    text-align: left;
+  }
+`;
+const LagLink = styled.button`
+  margin: 50px auto;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+`;
