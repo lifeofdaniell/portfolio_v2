@@ -35,7 +35,7 @@ const ImageRowWrapper = styled.div`
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0px 5px;
-  margin: 70px auto 140px auto;
+  margin: 70px auto 70px auto;
   max-width: 85%;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@ const ImageRowWrapper = styled.div`
 
   @media (max-width: 720px) {
     max-width: 90%;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 100px;
     align-items: flex-start;
   }

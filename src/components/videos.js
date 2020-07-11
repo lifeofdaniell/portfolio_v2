@@ -4,16 +4,16 @@ import "./layout.css";
 
 const VideoRow = (props) => (
   <VideoWrapper>
-    <Video src={props.video1} controls="controls" />
-    <Video src={props.video2} controls="controls" />
-    <Video src={props.video3} />
-    <Video src={props.video4} />
-    <Video src={props.video5} />
-    <Video src={props.video6} />
-    <Video src={props.video7} />
-    <Video src={props.video8} />
-    <Video src={props.video9} />
-    <Video src={props.video10} />
+    <Image src={props.image1} alt="" />
+    <Image src={props.image2} alt="" />
+    <Image src={props.image3} alt="" />
+    <Image src={props.image4} alt="" />
+    <Image src={props.image5} alt="" />
+    <Image src={props.image6} alt="" />
+    <Video src={props.video1} controls="controls" poster="" />
+    <Image src={props.image} alt="" />
+    <Video src={props.video3} controls="controls" poster="" />
+    <Video src={props.video2} controls="controls" poster="" />
   </VideoWrapper>
 );
 
@@ -53,6 +53,16 @@ const Video = styled.video`
   margin-bottom: 20px;
   vertical-align: middle;
   outline: none;
+
+  @media (max-width: 720px) {
+    margin-bottom: 5%;
+  }
+`;
+
+const Image = styled.img`
+  max-width: 100%;
+  margin-bottom: 20px;
+  vertical-align: middle;
 
   @media (max-width: 720px) {
     margin-bottom: 5%;

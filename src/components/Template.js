@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import "./layout.css";
+import { Link } from "gatsby";
 
 const TemplateGroup = styled.div`
   display: grid;
@@ -8,6 +9,7 @@ const TemplateGroup = styled.div`
   margin-top: 200px;
   margin-left: 10%;
   margin-right: 10%;
+  align-items: center;
 
   @media (max-width: 720px) {
     margin-top: 120px;
@@ -145,8 +147,23 @@ const RTLink = styled.a`
   color: black;
   font-size: 16px;
   font-weight: 500;
-  border-bottom: 1px solid black;
   cursor: pointer;
+  margin-bottom: 30px;
+  border-bottom: 1px solid black;
+
+  @media (max-width: 520px) {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+`;
+
+const RTLink2 = styled.a`
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 30px;
+  border-bottom: 1px solid black;
 
   @media (max-width: 520px) {
     font-size: 15px;
@@ -188,9 +205,9 @@ const Template = (props) => (
       <RTText>{props.description}</RTText>
       <RTText>{props.description2}</RTText>
       <RTText>{props.description3}</RTText>
-      <RTLink href={props.link} target="_blank" rel="noopener">
-        {props.links}
-      </RTLink>
+      <Link to={props.link} target="_blank" rel="noopener">
+        <RTLink>{props.links}</RTLink>
+      </Link>
     </RightTemp>
   </TemplateGroup>
 );

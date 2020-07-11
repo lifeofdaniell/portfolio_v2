@@ -1,9 +1,11 @@
 import React from "react";
+import styled from "styled-components";
 import HeaderPage from "../../components/header";
 import Template from "../../components/Template";
 import SEO from "../../components/seo";
 import Footer from "../../components/footer";
 import ImageRow from "../../components/imagerow";
+import { Link } from "gatsby";
 
 const Crux = () => (
   <div>
@@ -40,8 +42,42 @@ const Crux = () => (
       image6="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297744/crux/9_h08mx2.jpg"
       image7="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594297742/crux/10_aas845.jpg"
     />
+
+    <CruxFooter>
+      <CruxText>
+        "The new student portal design presents a massive upgrade from the
+        existing portal. With the introduction of new features and
+        functionalities and a more user-friendly interface, it addresses the
+        needs of the student population and improves communication within the
+        student community making student life easier."
+      </CruxText>
+      <Link
+        to="https://xd.adobe.com/view/94c96766-56dd-4009-6119-7aea9f437602-e2f8/"
+        target="_blank"
+        rel="noopener"
+      >
+        <CruxLink>View Prototype</CruxLink>
+      </Link>
+    </CruxFooter>
     <Footer />
   </div>
 );
 
 export default Crux;
+
+const CruxFooter = styled.div`
+  text-align: center;
+  width: 600px;
+  margin: 0px auto 50px auto;
+`;
+const CruxText = styled.p`
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+`;
+const CruxLink = styled.button`
+  margin: 50px auto;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+`;
