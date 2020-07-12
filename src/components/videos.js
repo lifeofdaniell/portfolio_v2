@@ -8,19 +8,22 @@ const VideoRow = (props) => (
     <Video
       src={props.video3}
       controls="controls"
-      poster="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594494798/GatsbyPortfolio/bookplaceholder_jqoaoe.png"
+      poster="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594589632/GatsbyPortfolio/optimized/bookshelfph_fcvx5l.jpg"
+    />
+    <Image src={props.image5} alt="" />
+    <Video
+      src={props.video4}
+      controls="controls"
+      poster="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594589629/GatsbyPortfolio/optimized/CinemaPh_ysivue.jpg"
     />
     <Video
       src={props.video2}
       controls="controls"
       poster="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594495990/GatsbyPortfolio/NetflixPlaceholder_nrod15.png"
     />
-    <Image src={props.image1} alt="" />
-    <Image src={props.image2} alt="" />
+
     <Image src={props.image3} alt="" />
     <Image src={props.image4} alt="" />
-    <Image src={props.image5} alt="" />
-    <Image src={props.image6} alt="" />
     <Video
       src={props.video1}
       controls="controls"
