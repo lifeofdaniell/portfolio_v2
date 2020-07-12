@@ -56,8 +56,8 @@ const Projects = () => (
         </Link>
         <Link to="/">
           <Card1
-            title="Areola Daniel Personal Website"
-            text="Front End Developement"
+            title="Personal Website"
+            text="Front End Development"
             text2="2020"
             image="https://res.cloudinary.com/areoladaniel-com/image/upload/v1593794268/GatsbyPortfolio/optimized/cover4_wpe3bo.jpg"
           />

@@ -14,8 +14,8 @@ const CardGroup = styled.div`
     width: 280px;
     height: 280px;
   }
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   position: relative;
   overflow: hidden;
   border-radius: 20px;
