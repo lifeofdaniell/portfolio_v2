@@ -27,7 +27,7 @@ const VideoRow = (props) => (
     <Video
       src={props.video1}
       controls="controls"
-      poster="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594496215/GatsbyPortfolio/eplplaceholder_ywfxs3.png"
+      poster="https://res.cloudinary.com/areoladaniel-com/image/upload/v1594591761/Screenshot_2020-07-12_at_23.08.49_gx0umw.png"
     />
   </VideoWrapper>
 );
