@@ -22,8 +22,11 @@ const StyledLink = styled((props) => <Link {...props} />)`
     }
   }
   @media (max-width: 520px) {
-    :hover{
-      none;
+    :hover {
+      .spantext1 {
+        visibility: hidden;
+        opacity: 0;
+      }
     }
   }
 `;
