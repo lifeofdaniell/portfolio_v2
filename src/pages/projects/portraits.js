@@ -4,6 +4,7 @@ import Template from "../../components/Template";
 import SEO from "../../components/seo";
 import ImageGrid from "../../components/imagegrid";
 import Footer from "../../components/footer";
+import PrevNext from "../../components/PrevNext";
 
 const Portraits = () => (
   <div>
@@ -56,7 +57,14 @@ const Portraits = () => (
       image31="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403286/bllacc2edit_rji4lh.jpg"
       image32="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403501/Soundz_y5ztx6.jpg"
     />
-    ;
+
+    <PrevNext
+      prevlink="/projects/matteblack"
+      prevproject="BloodType: MatteBlack"
+      nextlink="/projects/crux"
+      nextproject="CRUX Fashion Store App"
+    />
+
     <Footer />
   </div>
 );

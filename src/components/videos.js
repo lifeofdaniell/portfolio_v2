@@ -39,6 +39,8 @@ const VideoWrapper = styled.div`
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   padding: 0px 5px;
   max-width: 85%;
   margin: 70px auto 100px auto;

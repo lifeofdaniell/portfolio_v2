@@ -3,6 +3,8 @@ import HeaderPage from "../../components/header";
 import Template from "../../components/Template";
 import SEO from "../../components/seo";
 import Footer from "../../components/footer";
+import styled from "styled-components";
+import PrevNext from "../../components/PrevNext";
 
 const Wecare = () => (
   <div>
@@ -22,8 +24,7 @@ const Wecare = () => (
       list7="GitHub"
       year="YEAR"
       text4="2020"
-      links="Visit live website"
-      link="https://wecare.org"
+      links="Live website coming soon!"
       description="The WeCare website features a friendly, welcoming design and high
       quality imagery in an easily navigable layout making it easy for 
       visitors and potential donors to find out more about the cause, 
@@ -36,9 +37,25 @@ const Wecare = () => (
       ranging from how donations are gotten to the appropriate United Nations' Sustainable
       Development Goals the organization is focusing on. "
     />
+    <Space>
+      <span></span>
+    </Space>
 
+    <PrevNext
+      prevlink="/projects/designs"
+      prevproject="Miscellaneous Designs"
+      nextlink="/projects/posterfolio"
+      nextproject="Posters & Logos"
+    />
     <Footer />
   </div>
 );
 
 export default Wecare;
+
+const Space = styled.div`
+  margin-bottom: 150px;
+  @media (max-width: 520px) {
+    margin-bottom: 70px;
+  }
+`;

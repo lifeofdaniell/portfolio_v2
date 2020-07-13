@@ -35,7 +35,7 @@ const ImageRowWrapper = styled.div`
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0px 5px;
-  margin: 70px auto 70px auto;
+  margin: 50px auto 50px auto;
   max-width: 85%;
   justify-content: center;
   align-items: center;
@@ -44,8 +44,8 @@ const ImageRowWrapper = styled.div`
 
   @media (max-width: 720px) {
     max-width: 90%;
-    margin-top: 30px;
-    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     align-items: flex-start;
   }
   @keyframes CardAnimation {

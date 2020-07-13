@@ -6,6 +6,7 @@ import Template from "../../components/Template";
 import SEO from "../../components/seo";
 import ImageRow from "../../components/imagerow";
 import Footer from "../../components/footer";
+import PrevNext from "../../components/PrevNext";
 
 const Unilag = () => (
   <div>
@@ -51,6 +52,7 @@ const Unilag = () => (
     />
 
     <LagFooter>
+      <LagHead>REVIEW</LagHead>
       <LagText>
         "The new student portal design presents a massive upgrade from the
         existing portal. With the introduction of new features and
@@ -66,6 +68,13 @@ const Unilag = () => (
         <LagLink>View App Prototype</LagLink>
       </Link>
     </LagFooter>
+
+    <PrevNext
+      prevlink="/projects/crux"
+      prevproject="CRUX Fashion Store App"
+      nextlink="/projects/designs"
+      nextproject="Miscellaneous Designs"
+    />
     <Footer />
   </div>
 );
@@ -75,9 +84,21 @@ export default Unilag;
 const LagFooter = styled.div`
   text-align: center;
   width: 600px;
-  margin: 0px auto 50px auto;
+  margin: 100px auto 50px auto;
+
   @media (max-width: 520px) {
     width: 100%;
+    margin-bottom: 20px;
+  }
+`;
+const LagHead = styled.h3`
+  font-size: 22px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  @media (max-width: 520px) {
+    font-size: 18px;
+    text-align: left;
+    margin: 0px 0 10px 5%;
   }
 `;
 const LagText = styled.p`

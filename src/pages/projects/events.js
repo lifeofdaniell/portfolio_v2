@@ -4,6 +4,7 @@ import Template from "../../components/Template";
 import SEO from "../../components/seo";
 import ImageGrid from "../../components/imagegrid";
 import Footer from "../../components/footer";
+import PrevNext from "../../components/PrevNext";
 
 const Events = () => (
   <div>
@@ -79,6 +80,13 @@ const Events = () => (
       image53="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403011/IMG_8794_hbipxq.jpg"
       image54="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403039/IMG_8802_chk3y5.jpg"
       image55="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589403002/IMG_8749_b4ddus.jpg"
+    />
+
+    <PrevNext
+      prevlink="/projects/posterfolio"
+      prevproject="Posters & Logos"
+      nextlink="/projects/matteblack"
+      nextproject="BloodType: MatteBlack"
     />
 
     <Footer />

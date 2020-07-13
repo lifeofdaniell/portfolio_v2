@@ -4,6 +4,7 @@ import Template from "../../components/Template";
 import SEO from "../../components/seo";
 import Footer from "../../components/footer";
 import VideoRow from "../../components/videos";
+import PrevNext from "../../components/PrevNext";
 
 const Designs = () => (
   <div>
@@ -23,7 +24,6 @@ const Designs = () => (
       year="YEAR"
       text4="2020"
       description="From recreations to animations, you can find a compilation of various single UI design shots, animations and videos below."
-      description2="I will continue to update these designs as I post them on my social media accounts"
       links="Follow me on social media."
       link="https://www.twitter.com/lifeofdaniell"
     />
@@ -42,6 +42,12 @@ const Designs = () => (
       video4="https://res.cloudinary.com/areoladaniel-com/video/upload/v1594589787/GatsbyPortfolio/optimized/CinemassUI_s95zwi.mp4"
     />
 
+    <PrevNext
+      prevlink="/projects/unilag"
+      prevproject="University of Lagos Students' Portal"
+      nextlink="/projects/wecare"
+      nextproject="WeCare Charity Organisation Website"
+    />
     <Footer />
   </div>
 );

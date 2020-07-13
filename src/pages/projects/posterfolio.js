@@ -4,6 +4,7 @@ import Template from "../../components/Template";
 import SEO from "../../components/seo";
 import ImageGrid from "../../components/imagegrid";
 import Footer from "../../components/footer";
+import PrevNext from "../../components/PrevNext";
 
 const PosterFolio = () => (
   <div>
@@ -47,6 +48,13 @@ const PosterFolio = () => (
       image21="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402639/l2l_jti5ze.jpg"
       image25="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402927/teres_opnc3m.jpg"
       image29="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589841135/profsanni_fc93ro.jpg"
+    />
+
+    <PrevNext
+      prevlink="/projects/wecare"
+      prevproject="WeCare Charity Organisation Website"
+      nextlink="/projects/events"
+      nextproject="Events Excerpts"
     />
     <Footer />
   </div>

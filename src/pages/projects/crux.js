@@ -6,6 +6,7 @@ import SEO from "../../components/seo";
 import Footer from "../../components/footer";
 import ImageRow from "../../components/imagerow";
 import { Link } from "gatsby";
+import PrevNext from "../../components/PrevNext";
 
 const Crux = () => (
   <div>
@@ -52,6 +53,13 @@ const Crux = () => (
         <CruxLink>View Prototype</CruxLink>
       </Link>
     </CruxFooter>
+
+    <PrevNext
+      prevlink="/projects/portraits"
+      prevproject="Portraits"
+      nextlink="/projects/unilag"
+      nextproject="University of Lagos Students' Portal"
+    />
     <Footer />
   </div>
 );
@@ -64,6 +72,7 @@ const CruxFooter = styled.div`
   margin: 0px auto 50px auto;
   @media (max-width: 520px) {
     width: 100%;
+    margin-bottom: 20px;
   }
 `;
 const CruxText = styled.p`
@@ -79,7 +88,11 @@ const CruxText = styled.p`
 `;
 const CruxLink = styled.button`
   margin: 50px auto;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
+
+  @media (max-width: 520px) {
+    font-size: 14px;
+  }
 `;

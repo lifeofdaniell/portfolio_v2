@@ -4,6 +4,7 @@ import Template from "../../components/Template";
 import SEO from "../../components/seo";
 import Footer from "../../components/footer";
 import ImageGrid from "../../components/imagegrid";
+import PrevNext from "../../components/PrevNext";
 
 const Matteblack = () => (
   <div>
@@ -37,6 +38,13 @@ const Matteblack = () => (
       image13="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402371/amos4_c4ugxh.jpg"
       image14="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402311/0003_ywezoo.jpg"
       image15="https://res.cloudinary.com/areoladaniel-com/image/upload/v1589402363/amos3_px9z8n.jpg"
+    />
+
+    <PrevNext
+      prevlink="/projects/events"
+      prevproject="Events Excerpts"
+      nextlink="/projects/portraits"
+      nextproject="Portraits"
     />
     <Footer />
   </div>

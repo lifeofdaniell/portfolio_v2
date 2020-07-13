@@ -148,26 +148,10 @@ const RTLink = styled.a`
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
-  margin-bottom: 30px;
   border-bottom: 1px solid black;
 
   @media (max-width: 520px) {
     font-size: 15px;
-    margin-bottom: 30px;
-  }
-`;
-
-const RTLink2 = styled.a`
-  color: black;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-  margin-bottom: 30px;
-  border-bottom: 1px solid black;
-
-  @media (max-width: 520px) {
-    font-size: 15px;
-    margin-bottom: 30px;
   }
 `;
 
