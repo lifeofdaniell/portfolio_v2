@@ -8,13 +8,8 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
-  min-height: 100vh;
 }
-html,
-body {
-  height: -webkit-fill-available;
-  min-height: -webkit-fill-available;
-}
+
 a {
   text-decoration: none;
 }
@@ -29,7 +24,7 @@ a {
 }
 @media (max-width: 420px) {
   .container {
-    min-height: 100vh;
+    min-height: 90vh;
   }
 }
 
