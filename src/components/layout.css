@@ -126,7 +126,7 @@ a {
 .section2 {
   text-align: center;
   margin-top: -4rem;
-  margin-bottom: -4rem;
+  margin-bottom: -2rem;
   animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 }
