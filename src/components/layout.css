@@ -23,7 +23,7 @@ a {
 }
 @media (max-width: 420px) {
   .container {
-    min-height: 100vh;
+    min-height: 90vh;
   }
 }
 
