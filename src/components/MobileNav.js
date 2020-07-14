@@ -128,6 +128,7 @@ const MenuIcon = styled.div`
   cursor: pointer;
   background: transparent;
   border: none;
+  margin-top: -2px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
