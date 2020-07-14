@@ -14,11 +14,11 @@ const FooterGroup = styled.div`
 `;
 const PreFooters = styled.div`
   align-items: center;
-  max-width: 619px;
+  max-width: 650px;
   margin: 0 auto;
   display: grid;
   grid-gap: 40px;
-  grid-template-columns: 330px auto;
+  grid-template-columns: 290px auto;
 
   @media (max-width: 720px) {
     align-items: center;
@@ -32,21 +32,34 @@ const PreFooters = styled.div`
 `;
 const PreFooterTitle = styled.h3`
   color: black;
+  position: relative;
   cursor pointer;
   font-size: 60px;
   letter-spacing: -3px;
   font-weight: 700;
   margin: 0;
   line-height: 1;
-  padding: 11px;
-  padding-left: 15px;
+  padding-top: 25px;
   padding-bottom: 13px;
-  border: 6px solid rgba(0, 0, 0, 1);
+  border-bottom: 6px solid rgba(0, 0, 0, 1);
   transition: all 200ms;
 
+  :after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    height: 6px;
+    width: 60%;
+    background-color: currentColor;
+    transition: width 0.25s ease;
+  }
+
   :hover {
-   color: white;
-   background: black;
+    :after{
+      width:100%;
+    }
   }
 
   @media (max-width: 640px) {
@@ -54,12 +67,14 @@ const PreFooterTitle = styled.h3`
   }
   @media (max-width: 420px) {
     font-size: 30px;
-    border: 3px solid rgba(0, 0, 0, 1);
-    border-radius:5px;
-    padding: 10px;
-    padding-left: 10px;
+    border-bottom: 4px solid rgba(0, 0, 0, 1);
     padding-bottom: 11px;
     letter-spacing: -2.5px;
+
+    :after{
+      bottom: -8px;
+      height: 5px;
+    }
   }
   @media (max-width: 330px) {
     font-size: 30px;
@@ -73,7 +88,7 @@ const PreFooterText = styled.p`
   letter-spacing: -0.5px;
   line-height: 1.5;
   max-width: 330px
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 
   @media (max-width: 720px) {
     text-align: center;

@@ -37,9 +37,9 @@ const AboutPage = () => (
         alt=""
       />
       <p>
-        Over the past 3 years, I started as a freelance graphics designer and
-        photographer before expanding to user interface and experience design
-        and most recently to front-end development.
+        Over the past 3 years, I have expanded my areas of expertise from
+        graphics design and photography to user interface and experience design
+        and most recently, front-end development .
       </p>
     </div>
     <div className="tools">
@@ -111,10 +111,9 @@ const AboutPage = () => (
     <div className="clients">
       <h3> EXPERIENCE {"&"} CLIENTS </h3>
       <p>
-        I’ve been lucky enough to establish relationships with amazing clients,
-        ranging from individual clients, through up-and-coming startups, to
-        non-profit organizations. For more details, view my résumé or head over
-        to my{" "}
+        I have established fruitful and lasting relationships with amazing
+        clients, ranging from individuals to startups and non-profit
+        organizations. For more details, view my résumé or head over to my{" "}
         <a
           href="https://www.linkedin.com/in/areola-daniel-11180115a"
           target="_blank"
@@ -128,7 +127,7 @@ const AboutPage = () => (
     </div>
     <PreFooter
       title="Let's Work Together!"
-      text="Need a designer or a developer? I'm currently available to work on any project. I'll be happy to discuss new opportunities. Let's get in touch!"
+      text="Need a designer or a developer? I'm currently available to work on any project. I'll be happy to discuss new patnerships. Let's get in touch!"
     />
     <Footer />
   </div>

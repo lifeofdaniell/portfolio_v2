@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Skeleton from "react-loading-skeleton";
 import "./layout.css";
 
 const ImageRow = (props) => (
@@ -11,10 +10,10 @@ const ImageRow = (props) => (
     <ImageColumn>
       <Image src={props.column2} alt="" />
     </ImageColumn>
-    <Image src={props.image1 || <Skeleton />} alt="" />
-    <Image src={props.image2 || <Skeleton />} alt="" />
-    <Image src={props.image3 || <Skeleton />} alt="" />
-    <Image src={props.image4 || <Skeleton />} alt="" />
+    <Image src={props.image1} alt="" />
+    <Image src={props.image2} alt="" />
+    <Image src={props.image3} alt="" />
+    <Image src={props.image4} alt="" />
     <Image src={props.image5} alt="" />
     <Image src={props.image6} alt="" />
     <Image src={props.image7} alt="" />

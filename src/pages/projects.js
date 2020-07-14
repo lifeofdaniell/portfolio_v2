@@ -100,7 +100,7 @@ const Projects = () => (
     </div>
     <PreFooter
       title="Let's Work Together!"
-      text="Need a designer or a developer? I'm currently available to work on any project. I'll be happy to discuss new opportunities. Let's get in touch!"
+      text="Need a designer or a developer? I'm currently available to work on any project. I'll be happy to discuss new patnerships. Let's get in touch!"
     />
     <Footer />
   </div>

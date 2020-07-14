@@ -42,7 +42,7 @@ export default function Contact() {
           Let's Work Together <b>🤝</b> Shall We?
         </h2>
         <h4>
-          I'm currently available to work on any project. I'll be happy to
+          I'm currently available to work on any project and I'm happy to
           discuss new opportunities. I work with a selected number of clients at
           a time to ensure delivery of meaningful high quality results. If I
           think that I won’t be a good fit for your idea, I’ll tell you so and
