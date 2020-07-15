@@ -121,9 +121,12 @@ const AboutPage = () => (
           LinkedIn profile.
         </a>
       </p>
-      <Link to="/" className="resume">
+      <a
+        href="https://drive.google.com/file/d/1uPxUbj_6jTXP4cZFXrP5LOtJdocpyFHG/view?usp=sharing"
+        className="resume"
+      >
         View Résumé
-      </Link>
+      </a>
     </div>
     <PreFooter
       title="Let's Work Together!"
