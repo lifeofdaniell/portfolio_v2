@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "typeface-poppins";
 import { useStaticQuery, graphql } from "gatsby";
 
 import "./layout.css";
