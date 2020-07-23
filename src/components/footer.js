@@ -65,7 +65,7 @@ const Footer = () => (
     <div className="foot">
       <p>
         © Areola Daniel 2020. Designed with <b>Adobe XD</b> and Built with{" "}
-        <b>React.</b>
+        <b>GatsbyJS.</b>
       </p>
     </div>
   </div>
