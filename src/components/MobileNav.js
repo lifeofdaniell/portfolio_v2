@@ -86,7 +86,7 @@ const MobileNavMenu = () => {
           <Foot>
             <p>
               © Areola Daniel 2020. Designed with <b>Adobe XD</b> and Built with{" "}
-              <b>React.</b>
+              <b>GatsbyJS.</b>
             </p>
           </Foot>
         </MenuLinks>
